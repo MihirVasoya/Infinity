@@ -1,7 +1,7 @@
 import streamlit as st
-import psycopg2
+#import psycopg2
 import pandas as pd
-import google.generativeai as genai
+#import google.generativeai as genai
 import openai
 # from openai import OpenAI
 
