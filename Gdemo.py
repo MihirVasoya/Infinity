@@ -9,8 +9,8 @@ import openai
 
 data=pd.read_csv("org.csv")
 
-
-openai.api_key = r"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"
+openai.api_key = st.secrets["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"]
+# openai.api_key = r"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"
 
 def get_completion(prompt, model="gpt-3.5-turbo-16k"):
             messages = [{"role": "user", "content": prompt}]
